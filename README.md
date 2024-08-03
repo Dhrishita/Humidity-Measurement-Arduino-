@@ -67,10 +67,10 @@ To get started with the project, follow these steps:
 3. Install Required Libraries:
 
 - Open the Arduino IDE.
-- Go to 'Sketch' > 'Include Library' > 'Manage Libraries'.
+- Go to **'Sketch'** > **'Include Library'** > **'Manage Libraries'**.
 - Search for and install the following libraries:
-  - 'DHT sensor library by Adafruit'
-  - 'LiquidCrystal library'
+  - **'DHT sensor library by Adafruit'**
+  - **'LiquidCrystal library'*8
   
 4. Open the Project in Arduino IDE:
 
@@ -79,8 +79,8 @@ To get started with the project, follow these steps:
 5. Upload the Code to Arduino:
 
 - Connect your Arduino UNO to your computer using a USB cable.
-- Select the correct board and port from 'Tools' > 'Board' and 'Tools' > 'Port'.
-- Click on the 'Upload' button to upload the code to the Arduino UNO.
+- Select the correct board and port from **'Tools'** > **'Board'** and **'Tools'** > **'Port'**.
+- Click on the **'Upload'** button to upload the code to the Arduino UNO.
    
 ## Contact
 If you have any questions or suggestions, feel free to open an issue or contact:
