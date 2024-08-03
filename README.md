@@ -57,27 +57,31 @@ To get started with the project, follow these steps:
 1. Clone the repository:
    
    ```bash
-   git clone https://github.com/Dhrishita/diabetes-prediction.git
-   cd diabetes-prediction
+   git clone https://github.com/Dhrishita/humidity-measurement-arduino.git
+   cd humidity-measurement-arduino
    
-2. Create a virtual environment and activate it:
-   
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+2. Install Arduino IDE:
 
-3. Install the required dependencies:
-   
-   ```bash
-   pip install -r requirements.txt
-   
-4. Run the prediction script:
+- Download and install the Arduino IDE.
 
-   ```bash
-   python predict_diabetes.py
+3. Install Required Libraries:
+
+- Open the Arduino IDE.
+- Go to 'Sketch' > 'Include Library' > 'Manage Libraries'.
+- Search for and install the following libraries:
+  - 'DHT sensor library by Adafruit'
+  - 'LiquidCrystal library'
+  
+4. Open the Project in Arduino IDE:
+
+- Open the .ino file from the cloned repository in the Arduino IDE.
+  
+5. Upload the Code to Arduino:
+
+- Connect your Arduino UNO to your computer using a USB cable.
+- Select the correct board and port from 'Tools' > 'Board' and 'Tools' > 'Port'.
+- Click on the 'Upload' button to upload the code to the Arduino UNO.
    
 ## Contact
 If you have any questions or suggestions, feel free to open an issue or contact:
 Dhrishita Parve: dhrishitap18@gmail.com
-
-
