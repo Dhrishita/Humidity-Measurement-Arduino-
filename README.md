@@ -9,6 +9,7 @@ Welcome to the Humidity Measurement project repository! This project involves me
 - [Components Required](#componentsrequired)
 - [Circuit Diagram](#circuitdiagram)
 - [Connecting DHT11 with Arduino UNO](#connectingDHT11witharduinoUNO)
+- [Working of Project](#WorkingofProject)
 - [Installation](#installation)
 - [Contact](#contact)
 
@@ -50,6 +51,10 @@ This Arduino-based project measures ambient humidity and displays it on a 16x2 L
 
 <img width="490" alt="Screenshot 2024-08-03 at 12 26 45 PM" src="https://github.com/user-attachments/assets/081c3718-a964-40c6-874f-1aebf74d066c">
 
+## Working of Project
+
+Working of this project is based on single wire serial communication. First Arduino send a start signal to DHT module and then DHT gives a response signal containing humidity data. Arduino collect and extract humidity and then send them to 16x2 LCD.
+
 ## Installation
 
 To get started with the project, follow these steps:
@@ -70,7 +75,7 @@ To get started with the project, follow these steps:
 - Go to **'Sketch'** > **'Include Library'** > **'Manage Libraries'**.
 - Search for and install the following libraries:
   - **'DHT sensor library by Adafruit'**
-  - **'LiquidCrystal library'*8
+  - **'LiquidCrystal library'**
   
 4. Open the Project in Arduino IDE:
 
