@@ -3,13 +3,13 @@ Welcome to the Humidity Measurement project repository! This project involves me
 
 ## Table of Contents
 
-- [Problem Statement](#problemstatement)
-- [Scope of Project](#scopeofproject)
-- [About the project](#abouttheproject)
-- [Components Required](#componentsrequired)
-- [Circuit Diagram](#circuitdiagram)
-- [Connecting DHT11 with Arduino UNO](#connectingDHT11witharduinoUNO)
-- [Working of Project](#WorkingofProject)
+- [Problem Statement](#problem-statement)
+- [Scope of Project](#scope-of-project)
+- [About the project](#about-the-project)
+- [Components Required](#components-required)
+- [Circuit Diagram](#circuit-diagram)
+- [Connecting DHT11 with Arduino UNO](#connecting-DHT11-with-arduino-UNO)
+- [Working of Project](#Working-of-Project)
 - [Installation](#installation)
 - [Contact](#contact)
 
